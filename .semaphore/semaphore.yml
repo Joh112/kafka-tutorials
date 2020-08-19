@@ -267,4 +267,8 @@ blocks:
         - name: Kafka Test Kafka Produer with Callbacks tests
           commands:
             - make -C _includes/tutorials/kafka-producer-application-callback/kafka/code tutorial
-            
+
+        - name: KStreams Test Streams schedule operations tests
+          commands:
+            - make -C _includes/tutorials/kafka-streams-schedule-operations/kstreams/code tutorial
+
